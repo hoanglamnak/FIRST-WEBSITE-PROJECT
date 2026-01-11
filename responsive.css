@@ -1,0 +1,152 @@
+@media (max-width: 768px) {
+
+    /* GLOBAL SAFETY */
+    html, body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    section {
+        width: 100%;
+        min-height: 100vh;
+        padding: 20px;
+    }
+
+    /* NAVBAR */
+    .navbar {
+        width: 100%;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 12px;
+        padding: 12px 0;
+        background-color: black;
+    }
+
+    .navbar a {
+        font-size: 14px;
+        color: white;
+    }
+
+    /* HOME */
+    .home {
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .home-bg {
+        width: 90%;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .sentence {
+        font-size: 34px;
+        text-align: center;
+        line-height: 1.2;
+    }
+
+    /* ABOUT */
+    .second-page {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 120px 20px 20px;
+        font-size: 24px;
+        margin: 0;
+        gap: 20px;
+    }
+
+    .infobox1 p {
+        font-size: 18px;
+    }
+
+    /* LINE */
+    .line {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    /* CONTACT TITLE */
+    .contact-me {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* FORM */
+    .form-box {
+        width: 100%;
+        margin: 20px auto;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .form-box form {
+        width: 100%;
+        max-width: 360px;
+    }
+
+    form input,
+    form textarea {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    form button {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    /* CONTACT INFO */
+    .contact-info {
+        padding: 0;
+        margin-top: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-info div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .contact-info a {
+        font-size: 16px;
+    }
+
+    /* FOOTER IMAGES — REMOVE POSITIONING */
+    .img-footer,
+    .img2-footer {
+        position: static;
+        width: 90%;
+        margin: 20px auto;
+        display: block;
+    }
+
+    /* FOOTER CREDIT */
+    .footer-credit {
+        position: static;
+        width: 100%;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .icon-footer {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        font-size: 20px;
+    }
+}
+
